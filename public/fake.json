@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "description": "Perfect for individual users",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "10+ templates",
+      "Basic support",
+      "Single user access"
+    ],
+    "icon": "https://i.ibb.co/basic-plan.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Plan",
+    "description": "Ideal for small teams and freelancers",
+    "price": 49,
+    "period": "monthly",
+    "tag": "recommended",
+    "tagType": "recommended",
+    "features": [
+      "50+ templates",
+      "Priority support",
+      "Team collaboration"
+    ],
+    "icon": "https://i.ibb.co/pro-plan.png"
+  },
+  {
+    "id": 3,
+    "name": "Enterprise Plan",
+    "description": "Best for large teams and organizations",
+    "price": 99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited templates",
+      "Team collaboration",
+      "Dedicated support"
+    ],
+    "icon": "https://i.ibb.co/enterprise.png"
+  },
+  {
+    "id": 4,
+    "name": "Starter Pack",
+    "description": "One-time purchase for basic needs",
+    "price": 49,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "20+ templates",
+      "Export to PDF",
+      "Basic editing tools"
+    ],
+    "icon": "https://i.ibb.co/starter.png"
+  }
+]
