@@ -1,5 +1,6 @@
 import React from 'react';
 import Products from '../Products/Products';
+import GetStart from '../GetStart/GetStart';
 
 const getProducts = async()=>{
   const res = await fetch("/public/fake.json")
@@ -43,6 +44,7 @@ const Body = () => {
             </section>
 
             <Products productPromise={productPromise}></Products>
+            <GetStart></GetStart>
 
 
         </div>

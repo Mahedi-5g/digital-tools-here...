@@ -1,62 +1,92 @@
 [
   {
     "id": 1,
-    "name": "Basic Plan",
-    "description": "Perfect for individual users",
-    "price": 19,
+    "name": "Portfolio Builder",
+    "description": "Create stunning portfolios and showcase your work",
+    "price": "$15/Mo",
     "period": "monthly",
     "tag": "popular",
     "tagType": "popular",
     "features": [
-      "10+ templates",
-      "Basic support",
-      "Single user access"
+      "50+ portfolio templates",
+      "Custom domain support",
+      "Responsive design"
     ],
-    "icon": "https://i.ibb.co/basic-plan.png"
+    "icon": "https://i.ibb.co.com/JRWcSVpc/portfolio.png"
   },
   {
     "id": 2,
-    "name": "Pro Plan",
-    "description": "Ideal for small teams and freelancers",
-    "price": 49,
-    "period": "monthly",
-    "tag": "recommended",
-    "tagType": "recommended",
-    "features": [
-      "50+ templates",
-      "Priority support",
-      "Team collaboration"
-    ],
-    "icon": "https://i.ibb.co/pro-plan.png"
-  },
-  {
-    "id": 3,
-    "name": "Enterprise Plan",
-    "description": "Best for large teams and organizations",
-    "price": 99,
+    "name": "Operations Manager",
+    "description": "Manage daily operations efficiently in one place",
+    "price": "$20/One-Time",
     "period": "monthly",
     "tag": "best seller",
     "tagType": "best seller",
     "features": [
-      "Unlimited templates",
-      "Team collaboration",
-      "Dedicated support"
+      "Task automation",
+      "Real-time tracking",
+      "Team collaboration"
     ],
-    "icon": "https://i.ibb.co/enterprise.png"
+    "icon": "https://i.ibb.co.com/0VsLWtt4/image.png"
   },
   {
-    "id": 4,
-    "name": "Starter Pack",
-    "description": "One-time purchase for basic needs",
-    "price": 49,
-    "period": "one-time",
+    "id": 3,
+    "name": "Photography Kit",
+    "description": "Professional tools for photographers and editors",
+    "price": "$30/Mo",
+    "period": "yearly",
     "tag": "new",
     "tagType": "new",
     "features": [
-      "20+ templates",
-      "Export to PDF",
-      "Basic editing tools"
+      "Photo editing tools",
+      "High-resolution export",
+      "Cloud storage"
     ],
-    "icon": "https://i.ibb.co/starter.png"
+    "icon": "https://i.ibb.co.com/fGzSvk27/camera-8775444-1.png"
+  },
+  {
+    "id": 4,
+    "name": "Design Toolkit",
+    "description": "All-in-one design solution for creatives presence",
+    "price": "$25/Mo",
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "100+ UI templates",
+      "Drag & drop editor",
+      "Export to multiple formats"
+    ],
+    "icon": "https://i.ibb.co.com/MkD1VQ0y/design-tool.png"
+  },
+  {
+    "id": 5,
+    "name": "Social Media Manager",
+    "description": "Grow and manage your social media presence",
+    "price": "$18/One-Time",
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Post scheduling",
+      "Analytics dashboard",
+      "Multi-platform support"
+    ],
+    "icon": "https://i.ibb.co.com/rKfRbyG5/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Writing Assistant",
+    "description": "Improve your writing with smart AI suggestions",
+    "price": "$12/Mo",
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Grammar correction",
+      "Content suggestions",
+      "Export to PDF"
+    ],
+    "icon": "https://i.ibb.co.com/pBqRn5J2/writing-2327400-1.png"
   }
 ]
