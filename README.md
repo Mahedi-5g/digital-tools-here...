@@ -1,16 +1,76 @@
-# React + Vite
+# 🚀 DigiTools - Premium Digital Tools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools is a modern React-based web application where users can explore and purchase premium digital tools like AI tools, design assets, and productivity software.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
+🔗 (Add your live link here)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🛍️ Browse premium digital products
+- 🛒 Add products to cart
+- ✅ Prevent duplicate product purchase
+- 🔢 Dynamic cart count in navbar
+- ❌ Remove items from cart
+- 📱 Fully responsive design
+- 🎨 Modern UI with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ UI Sections
+
+- 🔹 Navbar with cart badge
+- 🔹 Hero Banner (Responsive)
+- 🔹 Product Listing
+- 🔹 Cart System
+- 🔹 Pricing Section
+- 🔹 Get Started CTA
+
+---
+
+## ⚙️ Tech Stack
+
+- ⚛️ React.js
+- 🎨 Tailwind CSS
+- 📦 React Icons
+- 🔄 React `useState` & `use` (for async data)
+
+---
+
+## 📂 Project Structure
+
+src/
+│
+├── components/
+│ ├── Navbar/
+│ ├── Banner/
+│ ├── Products/
+│ ├── Cart/
+│ ├── Pricing/
+│ └── GetStart/
+│
+├── assets/
+│ └── images/
+│
+├── App.jsx
+└── main.jsx
+
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/digitools.git
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Run the project
+npm run dev
