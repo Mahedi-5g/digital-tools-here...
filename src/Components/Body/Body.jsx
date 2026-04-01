@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Products from '../Products/Products';
 import GetStart from '../GetStart/GetStart';
 import Pricing from '../Pricing/Pricing';
+import Cart from '../Cart/Cart';
 
 const getProducts = async()=>{
   const res = await fetch("/fake.json")
@@ -16,7 +17,11 @@ const getPricing = async()=>{
 }
 const pricePromise = getPricing()
 
+
+
 const Body = () => {
+    const [activeTab,setActiveTab]=useState("products");
+    const [carts,setCarts] = useState([])
     return (
         <div>
             <section className="h-60 bg-linear-to-r from-indigo-500 to-purple-500 ">
@@ -42,13 +47,14 @@ const Body = () => {
                     <p className="py-4">Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
                     <label htmlFor="Toggle3" className="inline-flex items-center p-2 gap-2 cursor-pointer dark:text-gray-100">
                         <input id="Toggle3" type="checkbox" className="hidden peer" />
-                        <span className="px-4 py-2 rounded-3xl dark:bg-indigo-500 peer-checked:dark:bg-gray-400">Products</span>
-                        <span className="px-4 py-2 rounded-3xl dark:bg-gray-400 peer-checked:dark:bg-indigo-500">Cart <span>2</span></span>
-                    </label>
+                        <span onClick={()=>setActiveTab("products")} className="px-4 py-2 rounded-3xl dark:bg-indigo-500 peer-checked:dark:bg-gray-400">Products</span>
+                        <span onClick={()=>setActiveTab("cart")} className="px-4 py-2 rounded-3xl dark:bg-gray-400 peer-checked:dark:bg-indigo-500 ">Cart <span>({carts.length})</span></span>
+                    </label> 
                 </div>
             </section>
 
-            <Products productPromise={productPromise}></Products>
+            {activeTab === "products" ? <Products productPromise={productPromise} carts={carts} setCarts={setCarts}></Products>:null}
+            {activeTab === "cart" ? <Cart carts={carts}></Cart>:null}
             <GetStart ></GetStart>
             <Pricing pricePromise={pricePromise}></Pricing>
 
