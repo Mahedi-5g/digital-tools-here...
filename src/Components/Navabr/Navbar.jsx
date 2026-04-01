@@ -1,6 +1,7 @@
 import React from 'react';
 import { IoCartOutline } from "react-icons/io5";
 
+
 const Navbar = () => {
     return (
         <div className="navbar bg-base-100 shadow-sm px-20">

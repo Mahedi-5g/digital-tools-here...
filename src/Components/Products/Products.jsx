@@ -1,5 +1,6 @@
 import { use } from 'react';
 import { TiTick } from 'react-icons/ti';
+import { toast } from 'react-toastify';
 
 const Products = ({ productPromise,carts,setCarts }) => {
     const products = use(productPromise)
@@ -7,6 +8,7 @@ const Products = ({ productPromise,carts,setCarts }) => {
 
         if (!exists) {
             setCarts([...carts, { ...product, quantity: 1 }]);
+            toast.success("Item added to Cart!")
         }
     };
     return (
@@ -32,7 +34,7 @@ const Products = ({ productPromise,carts,setCarts }) => {
                     </div>
                     <h2 className="text-2xl font-semibold py-3">{product.name}</h2>
                     <p className="text-slate-600 ">{product.description}</p>
-                    <p className="text-xl font-semibold py-3">{product.price}</p>
+                    <p className="text-xl font-semibold py-3">${product.price}/Mo</p>
                     <ul className="text-slate-600 pb-3">
                         {product.features.map((feature, index) => (
                             <li key={index} className="flex items-center gap-2">

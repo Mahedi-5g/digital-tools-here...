@@ -54,7 +54,7 @@ const Body = () => {
             </section>
 
             {activeTab === "products" ? <Products productPromise={productPromise} carts={carts} setCarts={setCarts}></Products>:null}
-            {activeTab === "cart" ? <Cart carts={carts}></Cart>:null}
+            {activeTab === "cart" ? <Cart carts={carts} setCarts={setCarts}></Cart>:null}
             <GetStart ></GetStart>
             <Pricing pricePromise={pricePromise}></Pricing>
 
