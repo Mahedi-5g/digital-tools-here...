@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Starter",
+    "description": "Perfect for beginners to create and launch simple projects to run quickly without any cost.",
+    "price": "$0/Mo",
+    "button":"Get Started Free",
+    "features": [
+      "50+ portfolio templates",
+      "Custom domain support",
+      "Responsive design",
+      "Basic analytics",
+      "Email support",
+      "Limited storage",
+      "Community access"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pro",
+    "description": "Ideal for professionals who need advanced tools to manage and scale their workflow efficiently.",
+    "price": "$20/Mo",
+    "button":"Start Pro Trial",
+    "features": [
+      "Task automation",
+      "Real-time tracking",
+      "Team collaboration",
+      "Advanced analytics",
+      "Priority support",
+      "Unlimited storage",
+      "Integration with tools"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Enterprise",
+    "description": "Best solution for teams and businesses requiring powerful features, customization, and dedicated support.",
+    "price": "$99/Mo",
+    "button":"Contact Sales",
+    "features": [
+      "Photo editing tools",
+      "High-resolution export",
+      "Cloud storage",
+      "AI-powered enhancements",
+      "Dedicated support",
+      "Team management",
+      "Custom branding"
+    ]
+  }
+]

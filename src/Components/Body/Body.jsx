@@ -1,15 +1,20 @@
 import React from 'react';
 import Products from '../Products/Products';
 import GetStart from '../GetStart/GetStart';
+import Pricing from '../Pricing/Pricing';
 
 const getProducts = async()=>{
-  const res = await fetch("/public/fake.json")
+  const res = await fetch("/fake.json")
   return res.json()
-
-  
 
 }
 const productPromise = getProducts()
+
+const getPricing = async()=>{
+    const res= await fetch("/pricing.json")
+    return res.json()
+}
+const pricePromise = getPricing()
 
 const Body = () => {
     return (
@@ -44,7 +49,8 @@ const Body = () => {
             </section>
 
             <Products productPromise={productPromise}></Products>
-            <GetStart></GetStart>
+            <GetStart ></GetStart>
+            <Pricing pricePromise={pricePromise}></Pricing>
 
 
         </div>
